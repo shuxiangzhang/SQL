@@ -1,0 +1,44 @@
+一.mysql 卸载
+
+二.mysql的安装
+
+三. 数据库管理系统 DBMS 
+
+四.mysql简介 特点  开源  免费
+
+
+五.数据类型
+    5.1 数值型
+	     整数
+		 小数
+		 bit 了解
+	5.2字符串
+	    char  varchar *****
+		
+		enum  set
+		
+		binary varbinary
+		
+		
+		blob  text
+	5.3日期类型
+	   year
+	   date
+	   time
+	   datetime
+	   timestamp
+六.sql 语言规范
+
+七.sql 语言的分类
+     DDL
+       创建库 删除库  创建表 删除表  对表中字段的 增 删除  修改 
+	 
+     DML
+	   对表中数据的 增删改查
+
+     DQL： 数据查询语言
+
+     DCL：
+
+	 
+	   

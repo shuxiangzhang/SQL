@@ -1,0 +1,56 @@
+一.登陆
+    密文登陆  
+	mysql -u用户名 -p 
+	Enter password: ******
+	
+二.显示dbms内所有的库
+    show databases;
+	+--------------------+
+	| Database           |
+	+--------------------+
+	| information_schema |
+	| mysql              |
+	| performance_schema |
+	| sys                |
+	
+三.创建库
+
+    create database 数据库名;
+	create database atguigu;
+四.创建表
+
+   create table 表名(
+   
+	   字段名 字段类型，
+	   字段名 字段类型，
+	   字段名 字段类型
+   
+   );
+  
+  一个DBMS内有多个库  创建表时 要先确定使用哪一个库   
+   No database selected
+   
+   use 库名;
+   use atguigu;
+   
+
+   create table person(
+   
+     id int,
+	 pname varchar(20),
+	 sex char,
+	 age int
+   
+   );
+   
+   4.1插入数据
+    insert into 表名 values(字段的值,字段的值,字段的值,字段的值);
+   
+   insert into person values(1,"张三","男",20);
+   
+   
+   4.2 查看数据
+   select * from 表名;
+   
+   select * from person;
+   
