@@ -1227,15 +1227,15 @@ create table tt(
 
 ## 5.2 SQL的分类
 
-DDL语句：数据定义语句（Data Define Language），例如：创建（create），修改（alter），删除（drop）等
+DDL语句：数据定义语句（Data Definition Language），例如：创建（create），修改（alter），删除（drop）等
 
-DML语句：数据操作语句，例如：增（insert)，删（delete），改（update）
+DML语句：数据操作语句 (Data Manipulation Language)，例如：增（insert)，删（delete），改（update）
 
-DQL语句  :数据查询语言， 查（select）
+DQL语句: 数据查询语言 (Data Query Language)， 查（select）
 
 因为查询语句使用的非常的频繁，所以很多人把查询语句单拎出来一类，DQL（数据查询语言），DR（获取）L
 
-DCL语句：数据控制语句，例如：grant，commit，rollback等
+DCL语句：数据控制语句 (Data Control Language)，例如：grant，commit，rollback等
 
 其他语句：USE语句，SHOW语句，SET语句等。这类的官方文档中一般称为命令。
 
